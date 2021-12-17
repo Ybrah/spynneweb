@@ -1,0 +1,16 @@
+.btn-blue {
+    color:white;
+    font-weight: bolder;
+    background-color: #6F6FD9;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+#endbanner-btn {
+    display:flex;
+    align-items: center;
+    width:100px;
+    margin: 50px auto;
+    padding: 20px 30px ;
+}

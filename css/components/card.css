@@ -1,0 +1,82 @@
+.cards {
+  display: flex;
+	flex-wrap: wrap;
+}
+.card{
+  flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+}
+.card {
+    box-shadow:0px 3px 11px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  #students {
+    background-image:linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%),url(../../images/students.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 82px;
+  }
+  #students p {
+    color:whitesmoke;
+    font-size:medium;
+    text-align: center;
+  }
+#choice_students {
+  background-image:linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%),url(../../images/choose_the_student.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 82px;
+}
+
+ #choice_students p {
+    color:whitesmoke;
+    font-size:medium;
+    text-align: center;
+  }
+
+  #customization {
+    background-image:linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%),url(../../images/design.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 82px;
+  }
+  #customization p {
+    color:whitesmoke;
+    font-size:medium;
+    text-align: center;
+  }
+  .card img {
+    width: 278px;
+    border-radius: 5px; 
+  }
+  .card p {
+    flex-grow: 1;
+    padding-left: 20px;
+  }
+
+  .card-white {
+    width: 700px;
+    margin: 20px auto
+
+  }
+  .list-inline {
+    list-style: none;
+    padding: 60px 197ppx;
+}
+.list-inline li {
+    display: inline;
+    padding: 0px 60px; 
+}
+
+.list-inline i {
+    font-size:90px;
+    color:lightgrey;
+}
+.list-inline i:hover {
+    color:rgb(110, 135, 245);
+}
